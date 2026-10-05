@@ -1,0 +1,17 @@
+[
+  {
+    "customer": "Toyota",
+    "issue": "Cannot login to the system",
+    "priority": "HIGH"
+
+  },
+  {
+    "customer": "Honda",
+    "issue": "Need new user accounts",
+     "priority": "LOW"
+  },
+  {
+    "customer": "Nissan",
+    "issue": "Dashboard loading slowly"
+  }
+]
