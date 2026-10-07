@@ -1,0 +1,25 @@
+[
+  {
+    "customer": "Toyota",
+    "issue": "Cannot login to production system",
+    "priority": "HIGH"
+  },
+
+  {
+    "customer": "Honda",
+    "issue": "Need five new user accounts",
+    "priority": "medium"
+  },
+
+  {
+    "customer": "Nissan",
+    "issue": "Dashboard is loading slowly",
+    "priority": "low"
+  },
+
+  {
+    "customer": "Mazda",
+    "issue": "Production service is unavailable",
+    "priority": "urgent"
+  }
+]
