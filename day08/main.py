@@ -7,10 +7,14 @@ from database import (
     delete_case
 )
 
-print("Before update:")
-print(get_all_cases())
+def main():
+    create_database()
+    print("All cases:")
+    print(get_all_cases())
 
-delete_case(3)
+    print("High priority case:")
+    print(get_cases_by_priority("high"))
 
-print("After update:")
-print(get_all_cases())
+if__name__ == "__main__"
+    main()
+

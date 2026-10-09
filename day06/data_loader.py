@@ -9,9 +9,8 @@ def load_customer_cases(filename):
     except FileNotFoundError:
         print(f"File not found: {filename}")
         return []
-
+        # 返回1个空List
     except json.JSONDecodeError:
         print(f"Invalid JSON format: {filename}")
         return []
 
-cases = load_customer_cases("customer_cases.json")
